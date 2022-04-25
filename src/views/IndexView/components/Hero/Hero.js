@@ -88,6 +88,7 @@ const Hero = () => {
         </Container>
         <Box>
           <Box
+            sx={{ display: {xs: 'none', sm: 'block'} }}
             display={'flex'}
             width={'50rem'}
             left={'60%'}
@@ -97,7 +98,13 @@ const Hero = () => {
             {images.map((item, i) => (
               <Box key={i} marginTop={{ sm: -(i * 16) }} marginX={0}>
                 {item.group.map((g, j) => (
-                  <Box key={j} bgcolor={'background.paper'} marginTop={15}>
+                  <Box
+                    key={j}
+                    padding={1}
+                    borderRadius={2}
+                    boxShadow={3}
+                    marginTop={2}
+                  >
                     <Box
                       component={LazyLoadImage}
                       effect="blur"

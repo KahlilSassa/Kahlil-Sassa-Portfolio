@@ -75,9 +75,14 @@ const Features = () => {
             <br />
 
             <Typography
-              sx={{ fontWeight: 700, marginLeft: 28 }}
-              variant={'h4'}
+              variant="h4"
+              color="text.primary"
+              align={'center'}
               gutterBottom
+              marginLeft={1}
+              sx={{
+                fontWeight: 700,
+              }}
             >
               Resume{' '}
             </Typography>
