@@ -96,7 +96,7 @@ const Features = () => {
                   height={1}
                   width={1}
                   minHeight={800}
-                  image="/Kahlil Resume 2022.png"
+                  image="/Kahlil-Sassa-2022-Resume.png"
                 />
               </a>
             </Box>
