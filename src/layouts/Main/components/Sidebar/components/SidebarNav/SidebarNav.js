@@ -33,8 +33,8 @@ const SidebarNav = ({ pages }) => {
             component={'img'}
             src={
               mode === 'light'
-                ? 'https://assets.maccarianagency.com/the-front/logos/logo.svg'
-                : 'https://assets.maccarianagency.com/the-front/logos/logo-negative.svg'
+                ? 'K.png'
+                : '/K-Inverted.png'
             }
             height={1}
             width={1}
@@ -43,7 +43,7 @@ const SidebarNav = ({ pages }) => {
       </Box>
       <Box paddingX={2} paddingY={2}>
         <Box>
-          <NavItem title={'Landings'} items={landingPages} />
+          <NavItem title={'About'} items={landingPages} />
         </Box>
         {/* <Box>
           <NavItem title={'Company'} items={companyPages} />

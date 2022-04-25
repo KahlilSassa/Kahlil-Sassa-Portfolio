@@ -2,12 +2,11 @@
   "name": "thefront-js--react-scripts",
   "author": "Kahlil Sassa",
   "email": "kahlilsassa@gmail.com",
-  "homepage": "https://kahlilsassa.github.io/Kahlil-Sassa-Portfolio",
+  "homepage": "https://kahlilsassa.github.io/",
   "version": "4.6.0",
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "cross-env GENERATE_SOURCEMAP=false react-scripts build",
     "prettier:fix": "prettier './src/**/*.js' --write",
@@ -15,6 +14,7 @@
     "codeStyle:fix": "npm run prettier:fix && npm run eslint:fix",
     "clear-all": "rimraf ./build ./node_modules"
   },
+  
   "eslintConfig": {
     "extends": [
       "react-app"

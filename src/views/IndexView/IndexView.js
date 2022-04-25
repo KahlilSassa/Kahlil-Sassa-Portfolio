@@ -21,6 +21,7 @@ import {
   Hero,
 } from './components';
 
+
 const mock = [
   {
     image: '/Screen Shot 2022-04-12 at 6.04.46 PM.png',

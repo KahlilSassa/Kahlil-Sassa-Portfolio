@@ -12,9 +12,6 @@ import IconButton from '@mui/material/IconButton';
 // import useMediaQuery from '@mui/material/useMediaQuery';
 // import { useTheme } from '@mui/material/styles';
 
-
-
-
 const GetStarted = () => {
   // const theme = useTheme();
   // const isMd = useMediaQuery(theme.breakpoints.up('md'), {
@@ -34,6 +31,22 @@ const GetStarted = () => {
         }}
       >
         Lets connect!
+        <Box
+          display="flex"
+          flexDirection={{ xs: 'column', sm: 'row' }}
+          alignItems={{ xs: 'stretched', sm: 'flex-start' }}
+          justifyContent={'center'}
+          marginTop={4}
+        />
+        <IconButton href="https://www.linkedin.com/in/kahlil-sassa-b94676173/">
+          <LinkedInIcon sx={{ fontSize: '48px', justifyContent: 'Center' }} />
+        </IconButton>
+        <IconButton href="https://git.generalassemb.ly/kahlilsassa-1">
+          <GitHubIcon sx={{ fontSize: '48px', justifyContent: 'Center' }} />
+        </IconButton>
+        <IconButton href="mailto:kahlilsassa@gmail.com">
+          <EmailIcon sx={{ fontSize: '48px', justifyContent: 'Center' }} />
+        </IconButton>
       </Typography>
       <Typography
         variant="h6"
@@ -74,15 +87,15 @@ const GetStarted = () => {
           >
             Documentation
           </Button> */}
-          <IconButton href="https://www.linkedin.com/in/kahlil-sassa-b94676173/">
-            <LinkedInIcon sx={{ fontSize: '48px' }} />
+          {/* <IconButton href="https://www.linkedin.com/in/kahlil-sassa-b94676173/">
+            <LinkedInIcon sx={{ fontSize: '48px', justifyContent: 'Center' }} />
           </IconButton>
           <IconButton href="https://git.generalassemb.ly/kahlilsassa-1">
-            <GitHubIcon sx={{ fontSize: '48px' }} />
+            <GitHubIcon sx={{ fontSize: '48px', justifyContent: 'Center' }} />
           </IconButton>
           <IconButton href="mailto:kahlilsassa@gmail.com">
-            <EmailIcon sx={{ fontSize: '48px' }} />
-          </IconButton>
+            <EmailIcon sx={{ fontSize: '48px', justifyContent: 'Center' }} />
+          </IconButton> */}
         </Box>
       </Box>
     </Box>
