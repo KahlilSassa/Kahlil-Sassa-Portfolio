@@ -23,11 +23,10 @@ const mock = [
     url: 'https://muse-dev.herokuapp.com'
   },
   {
-    image: 'https://assets.maccarianagency.com/backgrounds/img12.jpg',
+    image: '/netflix.jpg',
     description: 'A social app that allows users to connect with peers.',
-    title: 'Twitter',
-    url: 'https://twitclonefrontend.herokuapp.com'
-
+    title: 'A virtual movie theater that allows the user to browse through multiple films ',
+    url: 'https://movieclone1.vercel.app/',
   },
 ];
 

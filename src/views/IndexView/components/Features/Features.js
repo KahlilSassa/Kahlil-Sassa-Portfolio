@@ -89,14 +89,14 @@ const Features = () => {
             <br />
             <br />
 
-            <Box component={Card} boxShadow={4} height={1} width={1}>
+            <Box component={Card} boxShadow={4} height={1} width={1} xs={12} md={4}>
               <a href="https://docs.google.com/document/d/1OvrLDbMHffbdEqkxp2nh8ogZOjhpsLqlQWHKJp-6cVA/edit?usp=sharing">
                 <Box
                   component={CardMedia}
                   height={1}
                   width={1}
                   minHeight={800}
-                  image="/Kahlil-Sassa-2022-Resume.png"
+                  image="/Screen Shot 2022-10-09 at 6.58.31 PM.png"
                 />
               </a>
             </Box>

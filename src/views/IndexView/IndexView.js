@@ -27,7 +27,7 @@ const mock = [
     image: '/Screen Shot 2022-04-12 at 6.04.46 PM.png',
     description: 'A luxury e-commerce store',
     title: 'Represent Clothing Store',
-    url: 'https://ancient-sands-31685.herokuapp.com/',
+    url: 'https://store-kappa-olive.vercel.app/',
   },
   {
     image: '/Screen Shot 2022-04-12 at 6.06.59 PM.png',
@@ -36,10 +36,10 @@ const mock = [
     url: 'https://muse-dev.herokuapp.com',
   },
   {
-    image: 'https://assets.maccarianagency.com/backgrounds/img12.jpg',
-    description: 'A social app that allows users to connect with peers.',
-    title: 'Twitter',
-    url: 'https://twitclonefrontend.herokuapp.com',
+    image: '/netflix.jpg',
+    description: 'A virtual movie theater that allows the user to browse through multiple films',
+    title: 'Netflix',
+    url: 'https://movieclone1.vercel.app/',
   },
 ];
 
