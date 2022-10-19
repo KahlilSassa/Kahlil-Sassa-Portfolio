@@ -27,7 +27,7 @@ const mock = [
     image: '/Screen Shot 2022-04-12 at 6.04.46 PM.png',
     description: 'A luxury e-commerce store',
     title: 'Represent Clothing Store',
-    url: 'https://store-kappa-olive.vercel.app/',
+    url: 'https://store-kahlilsassa.vercel.app/',
   },
   {
     image: '/Screen Shot 2022-04-12 at 6.06.59 PM.png',
